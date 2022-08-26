@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Buscador de GIFs</title>
+</head>
+<body> 
+    <header>
+        <div class="navbar navbar-dark bg-dark">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand ">
+                    <strong>Filmes</strong>
+                </a>
+                <nav>
+                    <a href="#" class="text-white">Sobre</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">O que você procura?</h1>
+                <input class="my-2 pl-2 py-1" type="text" name="text" id="text" placeholder="Digite algo..." style="width: 400px;">
+            </div>
+        </section>
+        <section style="background-color: #555;">
+            <div class="container" style="background-color: #555;">
+                <div class="row filmes bg-light" style="background-color: #555;">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- JQuery versão slim foi removido por não funcionar na requisição -->
+    <script src="./Assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
